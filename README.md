@@ -50,6 +50,47 @@ A `convolutional neural network (CNN)` is a type of neural network designed for 
 
 ## RESULTS & CONCLUSIONS
 
+| Metric (test set) | Mean over three seeds (standard deviation) |
+|---|---|
+| Area under the curve | 0.845 (0.005) |
+| Accuracy (baseline: 0.731) | 0.818 (0.015) |
+| Sensitivity (malignant pictures found) | 0.444 (0.050) |
+| Specificity (normal or benign pictures found) | 0.956 (0.015) |
+| Precision (malignant answers that were right) | 0.791 (0.060) |
+| F1 score for malignant | 0.568 (0.043) |
+| Balanced accuracy | 0.700 (0.024) |
+
+Confusion matrices on the test set (rows are the true label, columns the predicted label):
+
+**Seed 0**
+
+| | Predicted malignant | Predicted normal or benign |
+|---|---|---|
+| **True malignant** | 18 | 24 |
+| **True normal or benign** | 3 | 111 |
+
+**Seed 1**
+
+| | Predicted malignant | Predicted normal or benign |
+|---|---|---|
+| **True malignant** | 21 | 21 |
+| **True normal or benign** | 6 | 108 |
+
+**Seed 42**
+
+| | Predicted malignant | Predicted normal or benign |
+|---|---|---|
+| **True malignant** | 17 | 25 |
+| **True normal or benign** | 6 | 108 |
+
+**Conclusions:** 
+The network separates the two classes much better than guessing, and the result is stable across seeds. It finds fewer than half of the malignant pictures, which the accuracy alone hides, probably because of the fixed 0.5 cut-off and the unequal classes (not tested here).
+
+**Limits:** 
+- The test set is small (42 malignant pictures), so the real uncertainty is larger than the standard deviations suggest.
+- One picture appears in both the training and the test set with opposite labels, and other copied or doubtful pictures were not audited, so the results may be too optimistic.
+- This project is for learning and is not for clinical use.
+
 
 
 ## Documentation and versions
@@ -77,12 +118,6 @@ The exact versions are pinned in `requirements.txt`. They were taken from the wo
 | scikit-learn | 1.9.1 |
 | matplotlib | 3.11.2 |
 | ipykernel | 7.4.0 |
-
-### Notes and decisions
-
-- Images that show the armpit region are kept in the analysis, because this region can show signs of breast cancer.
-- Duplicate/Mislabeled images were handled xxx way
-- Two images out of the 780 in the arrays, disagree with the metadata file, and are misaligned on the labels nd benign vs malignant categories
 
 ## References
 
