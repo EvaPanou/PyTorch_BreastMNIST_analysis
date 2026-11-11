@@ -1,7 +1,5 @@
 # Breast ultrasound classifier with PyTorch
 
-**A small PyTorch project on biomedical image data:**
-
 MedMNIST is a collection of standardized, lightweight biomedical image datasets with fixed training, validation and test splits, designed so that results can be compared across studies<sup>1,2</sup>. 
 
 This project trains a *small convolutional neural network (CNN)* to classify breast ultrasound images as normal or benign versus malignant. It uses `BreastMNIST`, the **breast ultrasound dataset** from the `MedMNIST collection`, in its 28 by 28 pixel version. The model is evaluated on the standard test split using the area under the receiver operating characteristic curve, averaged over several random seeds.
