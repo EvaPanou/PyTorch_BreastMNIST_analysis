@@ -37,6 +37,10 @@ This project trains a small convolutional neural network (CNN) to classify breas
 
 5. Run `BreastMNIST_analysis.ipynb` from top to bottom, to firstly download the BreastMNIST dataset into a `data` folder, and be able to move forward with the analysis
 
+## References
+
+
+
 
 ## Notes and versions
 
@@ -44,8 +48,8 @@ This project trains a small convolutional neural network (CNN) to classify breas
 
 | Item | Version or detail |
 |---|---|
-| Operating system | Windows `<fill in, from the notebook output>` |
-| Python | 3.12 `<fill in the full version, for example 3.12.x>` |
+| Operating system | Windows 11 Pro, version 10.0.26300 (build 26300) |
+| Python | 3.12 |
 | Visual Studio Code | `<fill in, under Help, then About>` |
 | Environment creation | Made with the Command Palette command "Python: Create Environment" (Venv, named `.venv`), which gives the same result as step 1 above |
 | Date of setup | 2026-11-10 |
@@ -56,13 +60,15 @@ The exact versions are pinned in `requirements.txt`. They were taken from the wo
 
 | Package | Version |
 |---|---|
-| torch | `<fill in>` |
-| medmnist | `<fill in>` |
-| numpy | `<fill in>` |
-| pandas | `<fill in>` |
-| scikit-learn | `<fill in>` |
-| matplotlib | `<fill in>` |
-| ipykernel | `<fill in>` |
+| torch | 2.15.0 (CPU build) |
+| medmnist | 3.0.2 |
+| numpy | 2.5.4 |
+| pandas | 3.1.1 |
+| scikit-learn | 1.9.1 |
+| matplotlib | 3.11.2 |
+| ipykernel | 7.4.0 |
+
+
 
 ### Notes and decisions
 
