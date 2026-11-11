@@ -6,9 +6,16 @@ MedMNIST is a collection of standardized, lightweight biomedical image datasets 
 
 This project trains a small convolutional neural network (CNN) to classify breast ultrasound images as normal or benign versus malignant. It uses BreastMNIST, the breast ultrasound dataset from the MedMNIST collection, in its 28 by 28 pixel version. The model is evaluated on the standard test split using the area under the receiver operating characteristic curve, averaged over several random seeds.
 
-## Dataset
+## Repository structure and data sources
 
-- BreastMNIST, downloaded automatically through the `medmnist` package: https://medmnist.com/
+| Path | What it is | Source and how it was obtained |
+|---|---|---|
+| `README.md` | Description, setup, notes and references | |
+| `requirements.txt` | Pinned package versions | |
+| `.gitignore` | Files that Git should not track | |
+| `BreastMNIST_analysis.ipynb` | The analysis notebook | |
+| `metadata/breastmnist_split_info.csv` | Table giving each image's split, its position in that split, and its name in the original dataset | MedMNIST GitHub repository<sup>4</sup>, link behind "here" in the "Data Files" section of its README. Officially provided CSV file for BreastMNIST. Downloaded manually from [here](https://drive.google.com/drive/folders/1A_99qH_c-J0p_SatwSiaP_i1CvLUOzVo) |
+| `data/breastmnist.npz` | The image and label arrays | Downloaded automatically from Zenodo, in the notebook, by the `medmnist` [package](https://medmnist.com/). 
 
 ## Setup
 
