@@ -83,7 +83,7 @@ The exact versions are pinned in `requirements.txt`. They were taken from the wo
 1. Yang J, Shi R, Wei D, et al. MedMNIST v2—a large-scale lightweight benchmark for 2D and 3D biomedical image classification. *Sci Data*. 2023;10(1):41. doi:10.1038/s41597-022-01721-8
 2. Yang J, Shi R, Ni B. MedMNIST classification decathlon: a lightweight AutoML benchmark for medical image analysis. In: *IEEE 18th International Symposium on Biomedical Imaging (ISBI)*. IEEE; 2021:191-195. doi:10.1109/ISBI48211.2021.9434062
 3. Al-Dhabyani W, Gomaa M, Khaled H, Fahmy A. Dataset of breast ultrasound images. *Data Brief*. 2020;28:104863. doi:10.1016/j.dib.2019.104863
-4. MedMNIST. MedMNIST: 18x standardized datasets for 2D and 3D biomedical image classification. GitHub. Accessed `<fill in the date you downloaded the metadata file>`. https://github.com/MedMNIST/MedMNIST
+4. MedMNIST. MedMNIST: 18x standardized datasets for 2D and 3D biomedical image classification. GitHub. https://github.com/MedMNIST/MedMNIST
 5. Pawłowska A, Karwat P, Żołek N. Letter to the Editor. Re: "Dataset of breast ultrasound images by W. Al-Dhabyani, M. Gomaa, H. Khaled & A. Fahmy, Data in Brief, 2020, 28, 104863." *Data Brief*. 2023;48:109247. doi:10.1016/j.dib.2023.109247
 6. Pawlowska A, Karwat P, Zolek N. Supplementary files DIB-D-23-00350. Dataset. Mendeley Data; 2023. doi:10.17632/k8t3gnx9h6.1
 7. Paszke A, Gross S, Massa F, et al. PyTorch: an imperative style, high-performance deep learning library. *arXiv*. Preprint posted online December 3, 2019. doi:10.48550/arXiv.1912.01703
