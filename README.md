@@ -101,8 +101,7 @@ The network separates the two classes much better than guessing, and the result 
 |---|---|
 | Operating system | Windows 11 Pro, version 10.0.26300 (build 26300) |
 | Python | 3.12 |
-| Visual Studio Code | `<fill in, under Help, then About>` |
-| Environment creation | Made with the Command Palette command "Python: Create Environment" (Venv, named `.venv`), which gives the same result as step 1 above |
+| Visual Studio Code | 1.145 |
 | Date of setup | 2026-11-10 |
 
 ### Package versions
