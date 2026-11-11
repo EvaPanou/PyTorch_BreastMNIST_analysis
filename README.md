@@ -76,8 +76,7 @@ The exact versions are pinned in `requirements.txt`. They were taken from the wo
 
 - Images that show the armpit region are kept in the analysis, because this region can show signs of breast cancer.
 - Duplicate/Mislabeled images were handled xxx way
-- `<add later: result of the check for copied images between the training, validation and test splits>`
-- `<add later: how images with a biopsy needle, a doubtful label, or a place in two label groups were handled>`
+- Two images out of the 780 in the arrays, disagree with the metadata file, and are misaligned on the labels nd benign vs malignant categories
 
 ## References
 
